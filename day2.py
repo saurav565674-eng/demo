@@ -72,20 +72,66 @@
 #     print("its leap year")
 # else :
 #     print("not leap year")
-a= int (input(" enter value"))
-b= int(input("enter value"))
-n=int(input("enter no"))
-match n:
-    case 1: 
-        print("addition",a+b)
-    case 2:
-        print("substration",a-b)
-    case 3:
-        print("multiple",a*b)
-    case 4:
-        if b==0:
-            print("division is zero")
-        else:
-            print("division",a/b)
-    case _:
-        print("invalid case")
+# a= int (input(" enter value"))
+# b= int(input("enter value"))
+# n=int(input("enter no"))
+# match n:
+#     case 1: 
+#         print("addition",a+b)
+#     case 2:
+#         print("substration",a-b)
+#     case 3:
+#         print("multiple",a*b)
+#     case 4:
+#         if b==0:
+#             print("division is zero")
+#         else:
+#             print("division",a/b)
+#     case _:
+#         print("invalid case")
+
+# a = input("player 1 choose rock ,paper,scissor:")
+# b = input("player 2 choose rock ,paper,scissor:")
+# if (a == "rock " and b=="scissor") or (a=="paper"and b== "rock")or (a=="scissor" and b=="paper"):
+#     print ("player is winner") 
+# elif a==b:
+#     print("it is tie")
+# else :
+#     print ("player 2 is winner")
+
+# a= input("traffic signal:")
+# if a=="red":
+#     print("stop")
+# elif a=="yellow":
+#     print("ready")
+# elif a=="green":
+#     print("go")
+# else:
+#     print("invalid color")
+
+# balance=5000
+# password=1234
+# print("1.check balance \n 2.deposit \n 3.witdraw \n 4.exit")
+# n= int(input("enter your choice"))
+# match n:
+#     case 1:
+#         user =int(input("enter password"))
+#         if user== password:
+#             print("balance",balance)
+#         else :
+#             print("invalid password ")
+#     case 2:
+#         amount = int(input ("enter amount to deposit:"))
+#         balance += amount
+#         print("amount deposited",balance)
+#     case 3:
+#         amount =int(input ("amount to be withdraw"))
+#         if balance > amount:
+#             balance -= amount 
+#             print("balance remaind",balance)
+#         else :
+#             print("insuffienct balance")
+#     case 4:
+#         print("thank for visiting")
+#     case _:
+#         print("invalid choice !!please choice valid no:")
