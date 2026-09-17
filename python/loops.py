@@ -12,13 +12,14 @@
 #         print("wrong password")
 # print("password matched")
 
-# n=1
+# n=0
+# even =0
 # i= int(input("enter no"))
-# while i in range (1,i):
-#     i%n==0
+# while n<i:
+#     if n%2==0:
+#     even += 1
 #     n += 1
-#     count ++
-#  print (count)
+#  print (even)
 
 
 
